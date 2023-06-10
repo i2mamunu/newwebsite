@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    float: left;
+    width: 70%;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+    clear: both;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
