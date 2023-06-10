@@ -1,0 +1,91 @@
+/* Set background color for the body */
+body {
+	background-color: maroon;
+	background-image: url("bg.jpg");
+	background-size: 75%;
+	margin: 0;
+	padding: 3;
+}
+
+/* Set styles for the header */
+header {
+	text-align: center;
+	padding: 1rem;
+	color: #fff;
+	background-color: #333;
+}
+
+/* Set styles for the navigation menu */
+nav {
+	background-color: #fff;
+	padding: 1rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #333;
+	padding: 0.5rem;
+	transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* Set styles for the main content */
+main {
+	padding: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	margin: 1rem;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 1rem;
+	color: white;
+}
+
+.button-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: maroon;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: darkred;
+}
